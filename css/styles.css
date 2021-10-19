@@ -9,6 +9,9 @@ body {
   padding: 0;
   overflow: hidden;
   background-color: #231F20;
+  position: fixed;
+  width: 100%;
+  z-index: 999
 }
 
 li {
@@ -45,20 +48,23 @@ li a:hover:not(.active) {
   transform: translate(-50%, -50%);
   border: none;
   font-size: 25px;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .buttonbooknow:hover {
   background-color: #ff003a;
   color: white;
+  margin-top: 30px;
 }
 
 .hero-image {
   background-image: url("fastpass1.png");
   background-color: white;
   height: 500px;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
+  margin-top: 30px;
 }
